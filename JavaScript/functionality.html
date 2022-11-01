@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functionality</title>
+</head>
+<body>
+    <h2 id="apple">Apple</h2>
+    <button onclick="apple()">Click to See Next</button>
+
+    <h2 id="banana">Banana</h2>
+    <button onclick="banana()">Click to See Next</button>
+
+    <h2 id="orange">Orange</h2>
+    <button onclick="orange()">Click to See Next</button>
+
+    <h2 id="mango">Mango</h2>
+    <button onclick="mango()">Click to See Next</button>
+
+    <h2 id="item">This is Laptop Item</h2>
+    <button onclick="item()">Click to see Laptop Item</button>
+    <script>
+        
+        function item() {
+            let t = document.getElementById('item')
+            let Laptop = ['HP', 'Dell', 'Lenovo', 'Asus', 'Sarface']
+            t.style.color = 'blue'
+            let s = ''
+            for(x = 0; x < Laptop.length; x++) {
+                s += Laptop[x] + '<br>'
+            }
+            console.log(s)
+            t.innerHTML = s
+        }
+
+        function apple(){
+            let apple = document.getElementById('apple')
+            apple.innerHTML = 'i am changed text & style'
+            apple.style.color= 'blue'
+            apple.style.fontSize= '30px'
+        }
+
+        function banana() {
+            let banana = document.getElementById('banana')
+            banana.innerHTML = 'Banana is best fruits'
+            banana.style.color = 'red'
+            banana.style.fontStyle = 'italic'
+            banana.style.fontSize = '30px'
+        }
+
+        function orange() {
+            let orange = document.getElementById('orange')
+            orange.innerHTML = 'I am changed orange color'
+            orange.style.color = 'orange'
+            orange.style.fontFamily = 'kalpurush'
+            orange.style.fontSize = '30px'
+        }
+
+        function mango() {
+            let mango = document.getElementById('mango')
+            mango.innerHTML = 'Mango my favorite fruit'
+            mango.style.color = 'white'
+            mango.style.fontSize = '30px'
+            mango.style.fontFamily = 'arial black'
+            mango.style.backgroundColor = 'gray'
+        }
+    </script>
+</body>
+</html>

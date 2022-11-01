@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    background-color: #ddd;
+    height: 300px;
+    display: flex;
+    align-items: stretch;
+    margin: 0 auto;
+}
+.box1{
+    width: 100px;
+    
+    background-color: red;
+    margin: 20px;
+    border-radius: 5px;
+}
+.box2 {
+    width: 100px;
+    
+    background-color: blue;
+    margin: 20px;
+    border-radius: 5px;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(38, 161, 69);
+    margin: 20px;
+    border-radius: 5px;
+}
+.container > .box1 > p{
+text-align: center;
+}
+

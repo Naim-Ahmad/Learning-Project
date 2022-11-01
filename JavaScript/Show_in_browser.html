@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show in browder</title>
+    <!-- <script src="test.js"></script> -->
+</head>
+<body>
+    <h1 id="text">Hello! Friends</h1>
+    <button onclick="loop()">Go To Next</button>
+    <script>
+        function loop() {
+            let s = document.getElementById('text')
+            let text = ['Apple', 'Orange', 'Banana', 'Mango']
+            let color = ['green', 'red', 'yellow', 'blue']
+            let fontSize = ['30px', '40px', '50px', '60px']
+            let fontFamily = ['kalpurush', 'arial black', 'Times New Roman', 'kalpurush']
+            let number = Math.floor(Math.random() * 4)
+            
+            console.log(text[number])
+            console.log(color[number])
+            console.log(fontFamily[number])
+            
+            s.innerHTML = text[number]
+            s.style.color = color[number]
+            s.style.fontSize = fontSize[number]
+            s.style.fontFamily = fontFamily[number]
+        }
+    </script>
+</body>
+</html>
