@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(./anthony-riera-kylWNDQFd5A-unsplash.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+.header-content {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+#progress-section {
+  padding: 5rem;
+  background-color: aliceblue;
+}
+
+.progress {
+  width: 100%;
+  background-color: gainsboro;
+  height: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 0%;
+  background-color: orange;
+  height: 100%;
+  position: relative;
+  transition: 1s;
+}
+
+.progress-bar span {
+  position: absolute;
+  right: 0;
+  color: white;
+}
+
+.progress-container {
+  margin-bottom: 1rem;
+}
