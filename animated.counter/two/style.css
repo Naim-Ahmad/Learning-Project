@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0 5rem;
+  margin-top: 4rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: 266px;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 7px;
+  text-align: center;
+  margin: 5px;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.my-style {
+  display: block;
+  margin-bottom: 1rem;
+  margin-left: 16px;
+}
+
+span#counter {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
