@@ -116,9 +116,32 @@ Rest Parameters
 // console.log(obj)
 // console.log(newObj)
 
-console.log(Array.from('abcd'))
+// console.log(Array.from('abcd'))
 
 
-const obj = {a: 10, b: 20}
+// const obj = {a: 10, b: 20}
 
-console.log(Array.from(obj))
+// console.log(Array.from(obj))
+
+// function arr(arr){
+//  let length = arr.length
+//     if(length === 0){
+//         return `no one like this`
+//     }else if(length===1){
+//         return `${arr[0]} likes this`
+//     }else if(length===2){
+//         return `${arr[0]} And ${arr[1]} Like this`
+//     }else if(length===3){
+//         return `${arr[0]}, ${arr[1]} And ${arr[2]} like this`
+//     }else{
+//         return `${arr[0]}, ${arr[1]} And other ${length - 2} like this`
+//     }
+// }
+
+// console.log(arr(["Jacob", "Alex", "Mark", 'max', 'asad']));                             
+// ["Peter"]                         
+// ["Jacob", "Alex"]               
+// ["Max", "John", "Mark"]           
+// ["Alex", "Jacob", "Mark", "Max"]
+
+
