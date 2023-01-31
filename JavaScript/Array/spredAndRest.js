@@ -144,4 +144,15 @@ Rest Parameters
 // ["Max", "John", "Mark"]           
 // ["Alex", "Jacob", "Mark", "Max"]
 
+// let obj1 = {
+//     a: 10,
+//     b:20
+// }
+
+// let obj2 = {
+//     ...obj1,
+//     c: 30
+// }
+
+// console.log(obj2)
 
